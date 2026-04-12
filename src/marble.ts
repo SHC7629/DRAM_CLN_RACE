@@ -10,7 +10,7 @@ import { Vector } from './utils/Vector';
 export class Marble {
   type = 'marble' as const;
   name: string = '';
-  size: number = 1;
+  size: number = 0.7;
   color: string = 'red';
   hue: number = 0;
   impact: number = 0;
