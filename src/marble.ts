@@ -10,7 +10,7 @@ import { Vector } from './utils/Vector';
 export class Marble {
   type = 'marble' as const;
   name: string = '';
-  size: number = 1;
+  size: number = 3;
   color: string = 'red';
   hue: number = 0;
   impact: number = 0;
@@ -159,7 +159,7 @@ export class Marble {
       transformGuard(ctx, () => {
         ctx.translate(this.x, this.y);
         ctx.rotate(this.angle);
-        ctx.drawImage(skin, -hs, -hs, hs * 4, hs * 4);
+        ctx.drawImage(skin, -hs, -hs, hs * 2, hs * 2);
       });
     } else {
       this._drawMarbleBody(ctx, false);
