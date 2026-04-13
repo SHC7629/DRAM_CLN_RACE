@@ -104,13 +104,13 @@ export class RouletteRenderer {
       { name: '주누피', imgUrl: new URL('../assets/images/junyoop.png', import.meta.url) },
       { name: '왈도쿤', imgUrl: new URL('../assets/images/waldokun.png', import.meta.url) },
       { name: '후PL님', imgUrl: new URL('../assets/images/1.png', import.meta.url) },
-      { name: '뽀부장님', imgUrl: new URL('../assets/images/2.png', import.meta.url) },
-      { name: '재욱책임님', imgUrl: new URL('../assets/images/3.png', import.meta.url) },
-      { name: '세진책임님', imgUrl: new URL('../assets/images/4.png', import.meta.url) },
-      { name: '용욱책임님', imgUrl: new URL('../assets/images/5.png', import.meta.url) },
+      { name: '쭌부장님', imgUrl: new URL('../assets/images/2.png', import.meta.url) },
+      { name: 'CP킹', imgUrl: new URL('../assets/images/3.png', import.meta.url) },
+      { name: '안성재', imgUrl: new URL('../assets/images/4.png', import.meta.url) },
+      { name: '산적', imgUrl: new URL('../assets/images/5.png', import.meta.url) },
       { name: 'CA', imgUrl: new URL('../assets/images/6.png', import.meta.url) },
       { name: '풋살킹', imgUrl: new URL('../assets/images/7.png', import.meta.url) },
-      { name: '막내온탑', imgUrl: new URL('../assets/images/8.png', import.meta.url) },
+      { name: '맑눈광', imgUrl: new URL('../assets/images/8.png', import.meta.url) },
     ].map(({ name, imgUrl }) => {
       return (async () => {
         this._images[name] = await this._loadImage(imgUrl.toString());
